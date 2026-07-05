@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  tepegoz:
+    build: .             
+    image: tepegoz:v1    
+    container_name: tepegoz_app
+    volumes:
+      - ./test.log:/root/test.log  
+      - ./reports:/root/reports    
+    stdin_open: true    
+    tty: true            
+    

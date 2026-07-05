@@ -1,0 +1,21 @@
+# Binaries
+/tepegoz
+/tepegoz.exe
+/tepegoz-linux
+
+# Test and Log Files
+*.log
+/test.log
+
+# Reports
+/reports/*
+!/reports/.gitkeep
+
+# Go workspace
+*.test
+*.out
+
+# IDE / OS Files
+.vscode/
+.idea/
+.DS_Store

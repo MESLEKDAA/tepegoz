@@ -1,0 +1,12 @@
+rules:
+  - id: "R001"
+    name: "Critical System Error"
+    regex: "CRITICAL"
+    level: "HIGH"
+    description: "Detects critical error messages in logs"
+
+  - id: "R002"
+    name: "Failed Login Attempt"
+    regex: "Failed password"
+    level: "MEDIUM"
+    description: "Detects failed SSH or System login attemts"
