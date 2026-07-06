@@ -19,15 +19,15 @@ Tepegöz log dosyalarını analiz eden, kural tabanlı canlı tespit yapan ve ra
 
 Projenin sorunsuz çalışması için **Docker** ve **Docker Compose** kurulu olmalıdır.
 
-**Adım 1:** `emirhan_ozgen.zip` dosyasını klasöre çıkartın.
 
-**Adım 2:** Proje dizininde terminali açın ve şu komutu çalıştırın:
+
+Proje dizininde terminali açın ve şu komutu çalıştırın:
 
 ```bash
 docker compose up --build
 ```
 
-**Adım 3:** Uygulama başarıyla başlatıldığında karşınıza etkileşimli menü gelecektir.
+Uygulama başarıyla başlatıldığında karşınıza etkileşimli menü gelecektir.
 
 
 ## Dosya Yapısı 
